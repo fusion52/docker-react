@@ -17,7 +17,7 @@ class App extends Component {
             target='_blank'
             rel='noopener noreferrer'
           >
-            Learn React -- Roberto 2
+            Learn React - updated by Fusion52
           </a>
         </header>
       </div>
