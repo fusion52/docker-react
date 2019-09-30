@@ -5,6 +5,8 @@ WORKDIR '/app'
 COPY package.json .
 RUN npm install
 
+# you really do not need this here since locations are passed
+# by reference and not copied, but leave anyways!
 COPY . .
 
 CMD ["npm", "run", "start"]

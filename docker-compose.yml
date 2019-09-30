@@ -3,7 +3,9 @@ services:
   web:
     restart: always
     build:
+      # specific where to get the files
       context: .
+      # location of Dockerfile
       dockerfile: Dockerfile.dev
     ports:
       - '3000:3000'
